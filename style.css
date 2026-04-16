@@ -12,7 +12,9 @@
 .slideshow-element
 {
     text-align: center;
-
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+      transition: transform 0.5s ease-in-out;
 }
  
  
@@ -26,4 +28,9 @@
     color: coral;
 
 
+}
+.slideshow-element.current
+{
+  
+    transform: translate(-50%, -50%) scale(1);   
 }
