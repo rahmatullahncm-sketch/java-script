@@ -1,0 +1,29 @@
+.slideshow-container {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+}
+.slideshow-elemets{
+   
+
+}
+.slideshow-element
+{
+    text-align: center;
+
+}
+ 
+ 
+ 
+
+.slideshow-element i,
+ h2 
+{
+    font-size: 10rem;
+    align-items: center;
+    color: coral;
+
+
+}
